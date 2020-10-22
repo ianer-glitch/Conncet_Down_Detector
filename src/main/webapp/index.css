@@ -1,0 +1,59 @@
+/*Regra css*/
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    color:white;
+    background:#ebf2f5 ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+:root{
+    font-size:62.5%
+}
+
+.container {
+    height: 50rem;
+    width: 50rem;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid #D3E2E5;
+    
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: #FF1029;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.container h1::after {
+    content:'';
+    display: block;
+    width: 85%;
+    height: .3rem;
+    background: #000;
+    z-index: 10;
+    margin: 1rem auto 0 auto;
+}
+
+.container img {
+    width: 70%;
+    padding: 10rem 0 10rem 0;
+}
+
+
+/* #0F1116 */
+/* #FF1029 */
